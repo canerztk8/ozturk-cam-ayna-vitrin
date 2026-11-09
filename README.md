@@ -1,18 +1,27 @@
 # Öztürk Cam Ayna Web Sitesi
 
-Öztürk Cam Ayna'nın cam ve ayna hizmetlerini tanıtan web sitesi.
+Cam ve ayna hizmetlerini, projeleri ve iletişim yollarını sunan kurumsal web sitesi.
 
-## Sitede neler var?
+**Canlı site:** [www.ozturkcamayna.com](https://www.ozturkcamayna.com)
 
-- Cam ve ayna hizmetlerine ait sayfalar
-- Proje örnekleri
-- Katalog
-- İletişim, WhatsApp ve yol tarifi bağlantıları
+## Teknolojiler
 
-## Canlı site
+Next.js, React, TypeScript ve Tailwind CSS.
 
-[www.ozturkcamayna.com](https://www.ozturkcamayna.com)
+## Bu depodaki kodlar
 
-## Kaynak kodu
+Bu depo, çalışan sitenin seçilmiş kaynak kodu örneklerini içerir:
 
-Bu repo proje tanıtımı içindir. Web sitesinin kaynak kodu özel bir repoda tutulmaktadır.
+| Dosya | Ne yapıyor? |
+| --- | --- |
+| `ServiceCard.tsx` | Hizmetleri bağlantılı, duyarlı kartlar olarak gösterir. |
+| `StarRating.tsx` | Yıldız puanını tek bir CSS maskesiyle gösterir. |
+| `analytics.ts` | GA4 ve Microsoft Clarity'ye özel etkileşim olayları gönderir. |
+| `types.ts` | Örnek bileşenlerin kullandığı asgari hizmet tipi. |
+| `utils.ts` | CSS sınıflarını birleştiren yardımcı işlev. |
+
+Kod örnekleri gerçek siteden seçildi. Buradaki import yolları ve hizmet tipi, örneklerin birlikte okunabilmesi için sadeleştirildi.
+
+## Kapsam
+
+Bu depo tek başına çalıştırılabilir tam site değildir. Üretim ayarları, iletişim bilgileri, fotoğraflar, kataloglar ve diğer site içerikleri bu depoda bulunmaz. Canlı siteyi yukarıdaki bağlantıdan inceleyebilirsiniz.
